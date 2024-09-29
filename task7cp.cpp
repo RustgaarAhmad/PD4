@@ -1,24 +1,24 @@
 #include<iostream>
 using namespace std;
 
-void flowershop(int redrose, int whiterose, int tulips);
+void flowershop(float redrose, float whiterose, float tulips);
 
 main()
 {
 	cout<<"Red Rose: ";
-	int redrose;
+	float redrose;
 	cin>> redrose;
 	cout<< "White Rose: ";
-	int whiterose;
+	float whiterose;
 	cin>> whiterose;
 	cout<< "Tulips: ";
-	int tulips;
+	float tulips;
 	cin>> tulips;
 	flowershop(redrose, whiterose, tulips);
 	return 0;
 }
 
-void flowershop(int redrose, int whiterose, int tulips)
+void flowershop(float redrose, float whiterose, float tulips)
 {
 	float totalprice = redrose * 2.00 + whiterose * 4.10 + tulips * 2.50;
 	cout<< "Original Price: $ "<< totalprice <<endl;
