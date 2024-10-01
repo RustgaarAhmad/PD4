@@ -41,7 +41,10 @@ main()
 
 void printMenu()
 {
-	cout<<"UNIVERSITY ADMISSION MANAGEMENT SYSTEM"<<endl;
+	cout<<"*******************************************************************************************************************************************    " << endl;
+	cout<<"*********************************************      UNIVERSITY ADMISSION MANAGEMENT SYSTEM     *********************************************    "<<endl;
+	cout<<"*******************************************************************************************************************************************    " << endl;
+
 }
 
 void calculateAggregate(string name, int matricMarks, int interMarks, int ecatMarks)
