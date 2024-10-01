@@ -7,10 +7,10 @@ void name(int, int);
 main()
 {
 system("cls");
-int x= 5, y=10;
+int x= 20, y=15;
 gotoxy(x,y);
 name(x,y);
-gotoxy(0,60);
+gotoxy(0,30);
 }
 void gotoxy(int x,int y)
 {
